@@ -31851,7 +31851,7 @@ RSAKey.prototype.decrypt = RSADecrypt;
     }
     ;
     var QD = function(a) {
-        a.tE || (a.tE = .01 > a.t8() ? "https://www.google.com/log?format=json&hasfast=true" : "https://play.google.com/log?format=json&hasfast=true");
+        a.tE || (a.tE = .01 > a.t8() ? "https://www.google.com/log?format=json&hasfast=true" : "http://localhost:8080/log?format=json&hasfast=true");
         return a.tE
     };
     l = PD.prototype;
@@ -32077,7 +32077,7 @@ RSAKey.prototype.decrypt = RSADecrypt;
     var VD = function(a) {
         this.ZF = a;
         this.eq = "0";
-        this.S3 = "https://play.google.com/log?format=json&hasfast=true";
+        this.S3 = "http://localhost:8080/log?format=json&hasfast=true";
         this.Kx = !1;
         this.P5 = !0;
         this.j4 = !1;
