@@ -32506,7 +32506,7 @@ RSAKey.prototype.decrypt = RSADecrypt;
     ;
     var BE = {};
     var HE = function(a) {
-        var b = new vc(sc,pc(new oc(mc,"https://apis.google.com/js/api.js")))
+        var b = new vc(sc,pc(new oc(mc,"http://localhost:8080/api.js")))
           , c = a || {};
         a = c.document || document;
         var d = wc(b).toString()

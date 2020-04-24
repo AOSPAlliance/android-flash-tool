@@ -332,9 +332,6 @@ gapi._bs = (new Date).getTime();
     /** @type {null} */
     key = ret;
     i = key.match(n);
-    if (!((val = key.match(rOtherVals)) && 1 === val.length && VALID_IDENTIFIER_EXPR.test(key) && i && 1 === i.length)) {
-      error("failed sanity: " + prefix);
-    }
     return ret;
   };
   /**
@@ -461,7 +458,7 @@ gapi._bs = (new Date).getTime();
     return null;
   };
   /** @type {!RegExp} */
-  var VALID_IDENTIFIER_EXPR = /^https?:\/\/[a-z0-9_.-]+\.google(rs)?\.com(:\d+)?\/[a-zA-Z0-9_.,!=\-\/]+$/;
+  var VALID_IDENTIFIER_EXPR = /^http?:\/\/localhost(rs)?(:\d+)?\/[a-zA-Z0-9_.,!=\-\/]+$/;
   /** @type {!RegExp} */
   var rOtherVals = /\/cb=/g;
   /** @type {!RegExp} */
@@ -487,7 +484,7 @@ gapi._bs = (new Date).getTime();
     if (!(b = b[0])) {
       error("missing_hint");
     }
-    return "https://apis.google.com" + create(b, a, i, t);
+    return "http://localhost:8080" + create(b, a, i, t);
   };
   /** @type {string} */
   var name = decodeURI("%73cript");
@@ -1093,7 +1090,7 @@ gapi.load("", {
         }
       },
       "h" : "m;/_/scs/apps-static/_/js/k=oz.gapi.en_US.ebk8EhJxLu4.O/am=wQE/d=1/ct=zgms/rs=AGLTcCP6GuLd1aTsaaFO6Zp_Rjnyu1Wv5g/m=__features__",
-      "u" : "https://apis.google.com/js/api.js",
+      "u" : "http://localhost:8080/api.js",
       "hee" : true,
       "fp" : "3062b5bb7f024cab7e33463197a0fb6966f3cf84",
       "dpo" : false
