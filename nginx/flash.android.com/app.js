@@ -45452,7 +45452,7 @@ Dual licensed under the MIT and GPL licenses.
     };
     var cR = {
         z2: "https://www.googleapis.com",
-        w3: "https://content.googleapis.com",
+        w3: "http://localhost:8080",
         kh: "v3"
     };
     function dR(a) {

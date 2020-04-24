@@ -6,6 +6,9 @@ services:
     ports:
      - "8080:8080"
      - "8081:8081"
+    volumes:
+     - ${PWD}/image-with-license.sh:/usr/share/nginx/html/image-with-license.sh
+     - ${PWD}/android-info.txt:/usr/share/nginx/html/android-info.txt
     networks:
     - flashnet
   api:
