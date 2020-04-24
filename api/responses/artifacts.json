@@ -1,0 +1,34 @@
+{
+ "artifacts": [
+  {
+   "name": "android-info.txt",
+   "size": "167",
+   "lastModifiedTime": "1587705155526",
+   "md5": "e1d6a6ae5af876a8447e4128839a7ced",
+   "contentType": "text/plain",
+   "revision": "VBNpbu4ViF+d3mb7ZV9vhQ==",
+   "creationTime": "1587705155526",
+   "crc32": 4006742670
+  },
+  {
+   "name": "aosp_crosshatch-flashable-6424383-with-license.sh",
+   "size": "885664679",
+   "lastModifiedTime": "1587705170196",
+   "md5": "dcfea486d897e83eda90154e4286698c",
+   "contentType": "application/x-sh",
+   "revision": "6o1K/GWVU/ZEFowG8gzy8g==",
+   "creationTime": "1587705169534",
+   "crc32": 3266221320
+  },
+  {
+   "name": "aosp_crosshatch-symbols-6424383.zip",
+   "size": "4915785122",
+   "lastModifiedTime": "1587705202068",
+   "md5": "579154ac64b48cb949a5d021a71e95d6",
+   "contentType": "application/zip",
+   "revision": "1eleaCitAqcwS2eCn9NRaw==",
+   "creationTime": "1587705202068",
+   "crc32": 1073072672
+  }
+ ]
+}
