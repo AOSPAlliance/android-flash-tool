@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AOSP Alliance Flash Tool</title>
+
+    <link rel="shortcut icon" type="image/png"
+          href="https://www.gstatic.com/images/icons/material/system_gm/2x/system_update_gm_blue_24dp.png"/>
+
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans:400,500|Product+Sans|Google+Sans+Display:400" rel="stylesheet">
+  </head>
+
+  <body>
+    <public-flashstation-app></public-flashstation-app>
+
+    <script src="http://apis.google.com/js/api.js"></script>
+    <script>
+      window.WEB_FLASHSTATION_SECURE_ORIGIN = `http://localhost:8081`;
+      window.API_KEY = `AIzaSyD-bwHpMvFCN3PfRN4Txsw_ECg_iptNfMQ`;
+      window.ENVIRONMENT = 1;
+    </script>
+    <script src="/app.js"></script>
+
+  </body>
+</html>

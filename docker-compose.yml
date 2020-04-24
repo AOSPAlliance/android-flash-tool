@@ -1,0 +1,21 @@
+version: '3.7'
+
+services:
+  nginx:
+    build: ./nginx
+    ports:
+     - "8080:8080"
+     - "8081:8081"
+    networks:
+    - flashnet
+  api:
+    build: ./api
+    ports:
+     - "8082:8082"
+    networks:
+    - flashnet
+
+networks:
+  flashnet:
+    ipam:
+      driver: default
