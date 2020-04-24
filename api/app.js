@@ -23,4 +23,14 @@ app.get('/android/internal/build/v3/builds', function(req, res){
   res.send(fs.readFileSync('responses/builds.json', 'utf8'));
 });
 
+app.get('/android/internal/build/v3/builds/:id/:type/attempts/latest/artifacts', function(req, res){
+  res.setHeader('Content-Type', 'application/json');
+  res.send(fs.readFileSync('responses/artifacts.json', 'utf8'));
+});
+
+app.head('/android/internal/build/v3/builds/:id/:type/attempts/latest/artifacts/:file', function(req, res){
+  res.setHeader('Content-Type', 'application/json');
+  res.sendStatus(307)
+});
+
 app.listen(8082);
