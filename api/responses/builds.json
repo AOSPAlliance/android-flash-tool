@@ -1,35 +1,34 @@
 {
- "nextPageToken": "Cm33Efa5xv////+ekIyPoJyNkIyMl56LnJfSioyajZuanYqY/wD+//719tX4jJqcio2am/X99/716dXrz8/Pz8/Pz8/Pz8/Pz8nLzsvIxs715NXmnpCMj6CcjZCMjJeei5yX0oqMmo2bmp2KmP/+EBkhDRnTrAZABiY5AAAAADlGCe5IAVAAWgsJOJl/Y2W4/IAQA2Ce6JT7BA==",
  "builds": [
   {
-   "buildId": "6423546",
+   "buildId": "6424383",
    "target": {
-    "name": "aosp_crosshatch-userdebug",
-    "target": "aosp_crosshatch-userdebug",
+    "name": "aosp_blueline-userdebug",
+    "target": "aosp_blueline-userdebug",
     "buildCommands": [
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" build/soong/soong_ui.bash --make-mode TARGET_PRODUCT=aosp_crosshatch TARGET_BUILD_VARIANT=userdebug droid dist DIST_DIR=%dist_dir% with-license platform_tests continuous_instrumentation_tests continuous_native_tests",
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" prebuilts/remoteexecution-client/live/dumpstats"
+     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_blueline-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" build/soong/soong_ui.bash --make-mode TARGET_PRODUCT=aosp_blueline TARGET_BUILD_VARIANT=userdebug droid dist DIST_DIR=%dist_dir% with-license platform_tests continuous_instrumentation_tests continuous_native_tests",
+     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_blueline-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" prebuilts/remoteexecution-client/live/dumpstats"
     ],
     "buildPlatform": "linux",
     "javaVersion": "1.8",
-    "launchcontrolName": "aosp_crosshatch-userdebug",
-    "product": "aosp_crosshatch",
+    "launchcontrolName": "aosp_blueline-userdebug",
+    "product": "aosp_blueline",
     "disabled": false,
     "platformVersion": "trusty",
     "incrementalBuild": false,
-    "priority": "high",
+    "priority": "medium",
     "ownerInfo": {
      "owner": "bluecross-build@google.com",
      "expirationDate": "1599841224000"
     }
    },
-   "revision": "nTmJPU95GzvDIDSsbJjyEw==",
+   "revision": "9uskyU9CMI0nTOWHCeNA0w==",
    "successful": true,
    "branch": "aosp-master-with-phones",
    "signed": false,
-   "creationTimestamp": "1587662374588",
+   "creationTimestamp": "1587677000863",
    "buildAttemptStatus": "complete",
-   "worknodeId": "L74200000535707886:N25100000587460602",
+   "worknodeId": "L30700000535976748:N02800000587832127",
    "testResultSummary": {
     "testsComplete": true,
     "allCriticalTestsPassed": true,
@@ -39,14 +38,14 @@
        "BVT": {
         "passed": true,
         "testTags": {
-         "apct/device_boot_health_test-postsubmit": "1488471674010",
-         "apct/net/netdutils_test": "1488471674012",
-         "apct/net/networking_framework_unit_test": "1488471674015"
+         "apct/device_boot_health_test-postsubmit": "1488471690729",
+         "apct/net/netdutils_test": "1488471690730",
+         "apct/net/networking_framework_unit_test": "1488471690731"
         },
         "passedTestTags": {
-         "apct/device_boot_health_test-postsubmit": "1488471674010",
-         "apct/net/networking_framework_unit_test": "1488471674015",
-         "apct/net/netdutils_test": "1488471674012"
+         "apct/device_boot_health_test-postsubmit": "1488471690729",
+         "apct/net/networking_framework_unit_test": "1488471690731",
+         "apct/net/netdutils_test": "1488471690730"
         }
        }
       }
@@ -57,57 +56,72 @@
     ]
    },
    "hasTests": true,
-   "machineName": "abfarm-us-central1-c-0049",
-   "completionTimestamp": "1587696277190",
-   "buildbotAvailableSpaceGb": "733",
+   "machineName": "abfarm612",
+   "completionTimestamp": "1587705153717",
+   "buildbotAvailableSpaceGb": "695",
    "buildbotSwVersion": "androidbuild_buildbot_20200406.00_RC01",
-   "lastUpdatedTimestamp": "1587700968688"
+   "lastUpdatedTimestamp": "1587709747947"
   },
   {
-   "buildId": "6422843",
+   "buildId": "6424383",
    "target": {
-    "name": "aosp_crosshatch-userdebug",
-    "target": "aosp_crosshatch-userdebug",
+    "name": "aosp_blueline_hwasan-userdebug",
+    "target": "aosp_blueline_hwasan-userdebug",
     "buildCommands": [
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" build/soong/soong_ui.bash --make-mode TARGET_PRODUCT=aosp_crosshatch TARGET_BUILD_VARIANT=userdebug droid dist DIST_DIR=%dist_dir% with-license platform_tests continuous_instrumentation_tests continuous_native_tests",
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" prebuilts/remoteexecution-client/live/dumpstats"
+     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_blueline_hwasan-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" build/soong/soong_ui.bash --make-mode TARGET_PRODUCT=aosp_blueline_hwasan TARGET_BUILD_VARIANT=userdebug dist DIST_DIR=%dist_dir% installclean",
+     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_blueline_hwasan-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" build/soong/soong_ui.bash --make-mode TARGET_PRODUCT=aosp_blueline_hwasan TARGET_BUILD_VARIANT=userdebug droid dist DIST_DIR=%dist_dir% with-license platform_tests continuous_instrumentation_tests continuous_native_tests",
+     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_blueline_hwasan-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" prebuilts/remoteexecution-client/live/dumpstats"
     ],
     "buildPlatform": "linux",
     "javaVersion": "1.8",
-    "launchcontrolName": "aosp_crosshatch-userdebug",
-    "product": "aosp_crosshatch",
+    "launchcontrolName": "aosp_blueline_hwasan-userdebug",
+    "product": "aosp_blueline_hwasan",
     "disabled": false,
     "platformVersion": "trusty",
-    "incrementalBuild": false,
+    "incrementalBuild": true,
     "priority": "high",
     "ownerInfo": {
      "owner": "bluecross-build@google.com",
      "expirationDate": "1599841224000"
+    },
+    "presubmitIncrementalBuild": true,
+    "useTrident": true,
+    "tridentPresubmitPriority": "high",
+    "tridentPostsubmitPriority": "high",
+    "tridentConfig": {
+     "defaultEmptyImageSize": "2000"
     }
    },
-   "revision": "mrqvaG0IuP0vSEgeL9Jigg==",
+   "revision": "AzHz2ypwyz5iyryjgvLDtg==",
    "successful": true,
    "branch": "aosp-master-with-phones",
    "signed": false,
-   "creationTimestamp": "1587648048313",
+   "creationTimestamp": "1587677001704",
    "buildAttemptStatus": "complete",
-   "worknodeId": "L81800000535508714:N95000000587164580",
+   "worknodeId": "L30700000535976748:N06100000587832128",
    "testResultSummary": {
     "testsComplete": true,
-    "allCriticalTestsPassed": false,
+    "allCriticalTestsPassed": true,
     "toolGroups": {
      "ATP": {
       "testSuites": {
-       "BVT": {
-        "passed": false,
+       "PRESUBMIT": {
+        "passed": true,
         "testTags": {
-         "apct/device_boot_health_test-postsubmit": "1488471649592",
-         "apct/net/netdutils_test": "1488471649593",
-         "apct/net/networking_framework_unit_test": "1488471649594"
+         "apct/device_boot_health_test-postsubmit": "1488471638153",
+         "apct/net/netdutils_test": "1488471638154",
+         "apct/net/networking_framework_unit_test": "1488471638155",
+         "apct/bluetooth/instrumentation_test": "1488471638156",
+         "apct/bluetooth/native_test_64": "1488471638157",
+         "apct/net/networking_smoke_test": "1488471638158"
         },
         "passedTestTags": {
-         "apct/device_boot_health_test-postsubmit": "1488471649592",
-         "apct/net/netdutils_test": "1488471649593"
+         "apct/net/netdutils_test": "1488471638154",
+         "apct/net/networking_smoke_test": "1488471638158",
+         "apct/net/networking_framework_unit_test": "1488471638155",
+         "apct/bluetooth/instrumentation_test": "1488471638156",
+         "apct/device_boot_health_test-postsubmit": "1488471638153",
+         "apct/bluetooth/native_test_64": "1488471638157"
         }
        }
       }
@@ -118,222 +132,37 @@
     ]
    },
    "hasTests": true,
-   "machineName": "abfarm-01259",
-   "completionTimestamp": "1587683819896",
-   "buildbotAvailableSpaceGb": "654",
+   "machineName": "abfarm187",
+   "completionTimestamp": "1587678422174",
+   "buildbotAvailableSpaceGb": "1353",
    "buildbotSwVersion": "androidbuild_buildbot_20200406.00_RC01",
-   "lastUpdatedTimestamp": "1587691300112"
+   "lastUpdatedTimestamp": "1587679360805"
   },
   {
-   "buildId": "6422306",
+   "buildId": "6424383",
    "target": {
-    "name": "aosp_crosshatch-userdebug",
-    "target": "aosp_crosshatch-userdebug",
+    "name": "aosp_bonito-userdebug",
+    "target": "aosp_bonito-userdebug",
     "buildCommands": [
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" build/soong/soong_ui.bash --make-mode TARGET_PRODUCT=aosp_crosshatch TARGET_BUILD_VARIANT=userdebug droid dist DIST_DIR=%dist_dir% with-license platform_tests continuous_instrumentation_tests continuous_native_tests",
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" prebuilts/remoteexecution-client/live/dumpstats"
+     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_bonito-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" build/soong/soong_ui.bash --make-mode TARGET_PRODUCT=aosp_bonito TARGET_BUILD_VARIANT=userdebug droid dist DIST_DIR=%dist_dir% with-license platform_tests continuous_instrumentation_tests continuous_native_tests",
+     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_bonito-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" prebuilts/remoteexecution-client/live/dumpstats"
     ],
     "buildPlatform": "linux",
     "javaVersion": "1.8",
-    "launchcontrolName": "aosp_crosshatch-userdebug",
-    "product": "aosp_crosshatch",
+    "launchcontrolName": "aosp_bonito-userdebug",
+    "product": "aosp_bonito",
     "disabled": false,
     "platformVersion": "trusty",
     "incrementalBuild": false,
-    "priority": "high",
-    "ownerInfo": {
-     "owner": "bluecross-build@google.com",
-     "expirationDate": "1599841224000"
-    }
+    "priority": "medium"
    },
-   "revision": "L7dMqvmLyCFLGAIO47bTqQ==",
+   "revision": "vuRngXv0iK9ut3qhpKNdPA==",
    "successful": true,
    "branch": "aosp-master-with-phones",
    "signed": false,
-   "creationTimestamp": "1587633734847",
+   "creationTimestamp": "1587677001899",
    "buildAttemptStatus": "complete",
-   "worknodeId": "L81800000535349235:N26500000586932962",
-   "testResultSummary": {
-    "testsComplete": true,
-    "allCriticalTestsPassed": false,
-    "toolGroups": {
-     "ATP": {
-      "testSuites": {
-       "BVT": {
-        "passed": false,
-        "testTags": {
-         "apct/device_boot_health_test-postsubmit": "1488471631335",
-         "apct/net/netdutils_test": "1488471631336",
-         "apct/net/networking_framework_unit_test": "1488471631338"
-        },
-        "passedTestTags": {
-         "apct/net/networking_framework_unit_test": "1488471631338",
-         "apct/device_boot_health_test-postsubmit": "1488471631335"
-        }
-       }
-      }
-     }
-    },
-    "completedTools": [
-     "atp"
-    ]
-   },
-   "hasTests": true,
-   "machineName": "abfarm-01269",
-   "completionTimestamp": "1587675362910",
-   "buildbotAvailableSpaceGb": "709",
-   "buildbotSwVersion": "androidbuild_buildbot_20200406.00_RC01",
-   "lastUpdatedTimestamp": "1587682790869"
-  },
-  {
-   "buildId": "6421925",
-   "target": {
-    "name": "aosp_crosshatch-userdebug",
-    "target": "aosp_crosshatch-userdebug",
-    "buildCommands": [
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" build/soong/soong_ui.bash --make-mode TARGET_PRODUCT=aosp_crosshatch TARGET_BUILD_VARIANT=userdebug droid dist DIST_DIR=%dist_dir% with-license platform_tests continuous_instrumentation_tests continuous_native_tests",
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" prebuilts/remoteexecution-client/live/dumpstats"
-    ],
-    "buildPlatform": "linux",
-    "javaVersion": "1.8",
-    "launchcontrolName": "aosp_crosshatch-userdebug",
-    "product": "aosp_crosshatch",
-    "disabled": false,
-    "platformVersion": "trusty",
-    "incrementalBuild": false,
-    "priority": "high",
-    "ownerInfo": {
-     "owner": "bluecross-build@google.com",
-     "expirationDate": "1599841224000"
-    }
-   },
-   "revision": "7QP26pZty2LQbEuocW6W8Q==",
-   "successful": true,
-   "branch": "aosp-master-with-phones",
-   "signed": false,
-   "creationTimestamp": "1587622419604",
-   "buildAttemptStatus": "complete",
-   "worknodeId": "L31900000535216319:N76700000586737095",
-   "testResultSummary": {
-    "testsComplete": true,
-    "allCriticalTestsPassed": false,
-    "toolGroups": {
-     "ATP": {
-      "testSuites": {
-       "BVT": {
-        "passed": false,
-        "testTags": {
-         "apct/device_boot_health_test-postsubmit": "1488471634854",
-         "apct/net/netdutils_test": "1488471634856",
-         "apct/net/networking_framework_unit_test": "1488471634857"
-        },
-        "passedTestTags": {
-         "apct/device_boot_health_test-postsubmit": "1488471634854"
-        }
-       }
-      }
-     }
-    },
-    "completedTools": [
-     "atp"
-    ]
-   },
-   "hasTests": true,
-   "machineName": "abfarm-01160",
-   "completionTimestamp": "1587676880115",
-   "buildbotAvailableSpaceGb": "679",
-   "buildbotSwVersion": "androidbuild_buildbot_20200406.00_RC01",
-   "lastUpdatedTimestamp": "1587684247578"
-  },
-  {
-   "buildId": "6421035",
-   "target": {
-    "name": "aosp_crosshatch-userdebug",
-    "target": "aosp_crosshatch-userdebug",
-    "buildCommands": [
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" build/soong/soong_ui.bash --make-mode TARGET_PRODUCT=aosp_crosshatch TARGET_BUILD_VARIANT=userdebug droid dist DIST_DIR=%dist_dir% with-license platform_tests continuous_instrumentation_tests continuous_native_tests",
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" prebuilts/remoteexecution-client/live/dumpstats"
-    ],
-    "buildPlatform": "linux",
-    "javaVersion": "1.8",
-    "launchcontrolName": "aosp_crosshatch-userdebug",
-    "product": "aosp_crosshatch",
-    "disabled": false,
-    "platformVersion": "trusty",
-    "incrementalBuild": false,
-    "priority": "high",
-    "ownerInfo": {
-     "owner": "bluecross-build@google.com",
-     "expirationDate": "1599841224000"
-    }
-   },
-   "revision": "zemE8o59wKFtyfe4P7LYTA==",
-   "successful": true,
-   "branch": "aosp-master-with-phones",
-   "signed": false,
-   "creationTimestamp": "1587605328379",
-   "buildAttemptStatus": "complete",
-   "worknodeId": "L38900000534958567:N90600000586371743",
-   "testResultSummary": {
-    "testsComplete": true,
-    "allCriticalTestsPassed": false,
-    "toolGroups": {
-     "ATP": {
-      "testSuites": {
-       "BVT": {
-        "passed": false,
-        "testTags": {
-         "apct/device_boot_health_test-postsubmit": "1488471576682",
-         "apct/net/netdutils_test": "1488471576683",
-         "apct/net/networking_framework_unit_test": "1488471576685"
-        },
-        "passedTestTags": {
-         "apct/net/netdutils_test": "1488471576683"
-        }
-       }
-      }
-     }
-    },
-    "completedTools": [
-     "atp"
-    ]
-   },
-   "hasTests": true,
-   "machineName": "abfarm-00945",
-   "completionTimestamp": "1587646093461",
-   "buildbotAvailableSpaceGb": "721",
-   "buildbotSwVersion": "androidbuild_buildbot_20200406.00_RC01",
-   "lastUpdatedTimestamp": "1587653467630"
-  },
-  {
-   "buildId": "6420113",
-   "target": {
-    "name": "aosp_crosshatch-userdebug",
-    "target": "aosp_crosshatch-userdebug",
-    "buildCommands": [
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" build/soong/soong_ui.bash --make-mode TARGET_PRODUCT=aosp_crosshatch TARGET_BUILD_VARIANT=userdebug droid dist DIST_DIR=%dist_dir% with-license platform_tests continuous_instrumentation_tests continuous_native_tests",
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" prebuilts/remoteexecution-client/live/dumpstats"
-    ],
-    "buildPlatform": "linux",
-    "javaVersion": "1.8",
-    "launchcontrolName": "aosp_crosshatch-userdebug",
-    "product": "aosp_crosshatch",
-    "disabled": false,
-    "platformVersion": "trusty",
-    "incrementalBuild": false,
-    "priority": "high",
-    "ownerInfo": {
-     "owner": "bluecross-build@google.com",
-     "expirationDate": "1599841224000"
-    }
-   },
-   "revision": "MNSizefR9MupIws1KJOwnQ==",
-   "successful": true,
-   "branch": "aosp-master-with-phones",
-   "signed": false,
-   "creationTimestamp": "1587590747396",
-   "buildAttemptStatus": "complete",
-   "worknodeId": "L65600000534701017:N78300000586037209",
+   "worknodeId": "L30700000535976748:N30500000587832129",
    "testResultSummary": {
     "testsComplete": true,
     "allCriticalTestsPassed": true,
@@ -343,14 +172,14 @@
        "BVT": {
         "passed": true,
         "testTags": {
-         "apct/device_boot_health_test-postsubmit": "1488471538069",
-         "apct/net/netdutils_test": "1488471538071",
-         "apct/net/networking_framework_unit_test": "1488471538072"
+         "apct/device_boot_health_test-postsubmit": "1488471694335",
+         "apct/net/netdutils_test": "1488471694338",
+         "apct/net/networking_framework_unit_test": "1488471694339"
         },
         "passedTestTags": {
-         "apct/net/netdutils_test": "1488471538071",
-         "apct/device_boot_health_test-postsubmit": "1488471538069",
-         "apct/net/networking_framework_unit_test": "1488471538072"
+         "apct/net/networking_framework_unit_test": "1488471694339",
+         "apct/net/netdutils_test": "1488471694338",
+         "apct/device_boot_health_test-postsubmit": "1488471694335"
         }
        }
       }
@@ -361,49 +190,37 @@
     ]
    },
    "hasTests": true,
-   "machineName": "abfarm-us-central1-c-0049",
-   "completionTimestamp": "1587622639506",
-   "buildbotAvailableSpaceGb": "683",
-   "buildbotSwVersion": "androidbuild_buildbot_20200420.00_RC00",
-   "lastUpdatedTimestamp": "1587625140926",
-   "progress": {
-    "buildAttemptStatus": "syncing",
-    "lastUpdateTimestampSecond": "1587620262",
-    "totalActionCount": "805",
-    "finishedActionCount": "805",
-    "failedActionCount": "0",
-    "progressPercentage": 100.0
-   }
+   "machineName": "abfarm-01273",
+   "completionTimestamp": "1587706516645",
+   "buildbotAvailableSpaceGb": "652",
+   "buildbotSwVersion": "androidbuild_buildbot_20200406.00_RC01",
+   "lastUpdatedTimestamp": "1587707384357"
   },
   {
-   "buildId": "6419304",
+   "buildId": "6424383",
    "target": {
-    "name": "aosp_crosshatch-userdebug",
-    "target": "aosp_crosshatch-userdebug",
+    "name": "aosp_coral-userdebug",
+    "target": "aosp_coral-userdebug",
     "buildCommands": [
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" build/soong/soong_ui.bash --make-mode TARGET_PRODUCT=aosp_crosshatch TARGET_BUILD_VARIANT=userdebug droid dist DIST_DIR=%dist_dir% with-license platform_tests continuous_instrumentation_tests continuous_native_tests",
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" prebuilts/remoteexecution-client/live/dumpstats"
+     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_coral-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" build/soong/soong_ui.bash --make-mode TARGET_PRODUCT=aosp_coral TARGET_BUILD_VARIANT=userdebug droid dist DIST_DIR=%dist_dir% with-license platform_tests continuous_instrumentation_tests continuous_native_tests",
+     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_coral-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" prebuilts/remoteexecution-client/live/dumpstats"
     ],
     "buildPlatform": "linux",
     "javaVersion": "1.8",
-    "launchcontrolName": "aosp_crosshatch-userdebug",
-    "product": "aosp_crosshatch",
+    "launchcontrolName": "aosp_coral-userdebug",
+    "product": "aosp_coral",
     "disabled": false,
     "platformVersion": "trusty",
     "incrementalBuild": false,
-    "priority": "high",
-    "ownerInfo": {
-     "owner": "bluecross-build@google.com",
-     "expirationDate": "1599841224000"
-    }
+    "priority": "medium"
    },
-   "revision": "TCrmirHHHuL16Mf3+iKCSg==",
+   "revision": "dPK00lRIoNrNCPGXKTlTzw==",
    "successful": true,
    "branch": "aosp-master-with-phones",
    "signed": false,
-   "creationTimestamp": "1587575709281",
+   "creationTimestamp": "1587677002677",
    "buildAttemptStatus": "complete",
-   "worknodeId": "L53500000534462253:N18000000585709076",
+   "worknodeId": "L30700000535976748:N70400000587832130",
    "testResultSummary": {
     "testsComplete": true,
     "allCriticalTestsPassed": true,
@@ -413,14 +230,10 @@
        "BVT": {
         "passed": true,
         "testTags": {
-         "apct/device_boot_health_test-postsubmit": "1488471658454",
-         "apct/net/netdutils_test": "1488471658458",
-         "apct/net/networking_framework_unit_test": "1488471658460"
+         "apct/device_boot_health_test-postsubmit": "1488471695991"
         },
         "passedTestTags": {
-         "apct/net/netdutils_test": "1488471658458",
-         "apct/net/networking_framework_unit_test": "1488471658460",
-         "apct/device_boot_health_test-postsubmit": "1488471658454"
+         "apct/device_boot_health_test-postsubmit": "1488471695991"
         }
        }
       }
@@ -431,14 +244,14 @@
     ]
    },
    "hasTests": true,
-   "machineName": "abfarm-us-central1-c-0019",
-   "completionTimestamp": "1587688190477",
-   "buildbotAvailableSpaceGb": "654",
+   "machineName": "abfarm-01281",
+   "completionTimestamp": "1587707160348",
+   "buildbotAvailableSpaceGb": "699",
    "buildbotSwVersion": "androidbuild_buildbot_20200406.00_RC01",
-   "lastUpdatedTimestamp": "1587694737010"
+   "lastUpdatedTimestamp": "1587708239604"
   },
   {
-   "buildId": "6418642",
+   "buildId": "6424383",
    "target": {
     "name": "aosp_crosshatch-userdebug",
     "target": "aosp_crosshatch-userdebug",
@@ -459,31 +272,25 @@
      "expirationDate": "1599841224000"
     }
    },
-   "revision": "CBTQ7YVHSh2IXTr2aoO6dw==",
+   "revision": "rNJknaUyf/TvDkH5B+iUFQ==",
    "successful": true,
    "branch": "aosp-master-with-phones",
-   "rank": 559877192,
    "signed": false,
-   "creationTimestamp": "1587562294419",
+   "creationTimestamp": "1587677001115",
    "buildAttemptStatus": "complete",
-   "worknodeId": "L11700000534272575:N45200000585451468",
+   "worknodeId": "L30700000535976748:N55600000587832131",
    "testResultSummary": {
     "testsComplete": true,
-    "allCriticalTestsPassed": true,
+    "allCriticalTestsPassed": false,
     "toolGroups": {
      "ATP": {
       "testSuites": {
        "BVT": {
-        "passed": true,
+        "passed": false,
         "testTags": {
-         "apct/device_boot_health_test-postsubmit": "1488471615418",
-         "apct/net/netdutils_test": "1488471615420",
-         "apct/net/networking_framework_unit_test": "1488471615422"
-        },
-        "passedTestTags": {
-         "apct/device_boot_health_test-postsubmit": "1488471615418",
-         "apct/net/netdutils_test": "1488471615420",
-         "apct/net/networking_framework_unit_test": "1488471615422"
+         "apct/device_boot_health_test-postsubmit": "1488471690951",
+         "apct/net/netdutils_test": "1488471690958",
+         "apct/net/networking_framework_unit_test": "1488471690963"
         }
        }
       }
@@ -494,49 +301,88 @@
     ]
    },
    "hasTests": true,
-   "machineName": "abfarm-00986",
-   "completionTimestamp": "1587668516923",
-   "buildbotAvailableSpaceGb": "659",
-   "buildbotSwVersion": "androidbuild_buildbot_20200420.00_RC00",
-   "lastUpdatedTimestamp": "1587671198737",
-   "progress": {
-    "buildAttemptStatus": "syncing",
-    "lastUpdateTimestampSecond": "1587603007",
-    "totalActionCount": "805",
-    "finishedActionCount": "805",
-    "failedActionCount": "0",
-    "progressPercentage": 100.0
-   }
+   "machineName": "abfarm-east4-142",
+   "completionTimestamp": "1587705246617",
+   "buildbotAvailableSpaceGb": "652",
+   "buildbotSwVersion": "androidbuild_buildbot_20200406.00_RC01",
+   "lastUpdatedTimestamp": "1587712615437"
   },
   {
-   "buildId": "6418070",
+   "buildId": "6424383",
    "target": {
-    "name": "aosp_crosshatch-userdebug",
-    "target": "aosp_crosshatch-userdebug",
+    "name": "aosp_flame-userdebug",
+    "target": "aosp_flame-userdebug",
     "buildCommands": [
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" build/soong/soong_ui.bash --make-mode TARGET_PRODUCT=aosp_crosshatch TARGET_BUILD_VARIANT=userdebug droid dist DIST_DIR=%dist_dir% with-license platform_tests continuous_instrumentation_tests continuous_native_tests",
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" prebuilts/remoteexecution-client/live/dumpstats"
+     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_flame-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" build/soong/soong_ui.bash --make-mode TARGET_PRODUCT=aosp_flame TARGET_BUILD_VARIANT=userdebug droid dist DIST_DIR=%dist_dir% with-license platform_tests continuous_instrumentation_tests continuous_native_tests",
+     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_flame-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" prebuilts/remoteexecution-client/live/dumpstats"
     ],
     "buildPlatform": "linux",
     "javaVersion": "1.8",
-    "launchcontrolName": "aosp_crosshatch-userdebug",
-    "product": "aosp_crosshatch",
+    "launchcontrolName": "aosp_flame-userdebug",
+    "product": "aosp_flame",
     "disabled": false,
     "platformVersion": "trusty",
     "incrementalBuild": false,
-    "priority": "medium",
-    "ownerInfo": {
-     "owner": "bluecross-build@google.com",
-     "expirationDate": "1599841224000"
-    }
+    "priority": "medium"
    },
-   "revision": "agp7LJA9taIYj8sk9zfefw==",
+   "revision": "zFCKf0YBd5M/VHjiJe9JGA==",
    "successful": true,
    "branch": "aosp-master-with-phones",
    "signed": false,
-   "creationTimestamp": "1587546286827",
+   "creationTimestamp": "1587677001490",
    "buildAttemptStatus": "complete",
-   "worknodeId": "L49800000534091482:N76900000585185259",
+   "worknodeId": "L30700000535976748:N81900000587832132",
+   "testResultSummary": {
+    "testsComplete": true,
+    "allCriticalTestsPassed": false,
+    "toolGroups": {
+     "ATP": {
+      "testSuites": {
+       "BVT": {
+        "passed": false,
+        "testTags": {
+         "apct/device_boot_health_test-postsubmit": "1488471692365"
+        }
+       }
+      }
+     }
+    },
+    "completedTools": [
+     "atp"
+    ]
+   },
+   "hasTests": true,
+   "machineName": "abfarm-us-west1-c-0087",
+   "completionTimestamp": "1587705525556",
+   "buildbotAvailableSpaceGb": "651",
+   "buildbotSwVersion": "androidbuild_buildbot_20200406.00_RC01",
+   "lastUpdatedTimestamp": "1587712853675"
+  },
+  {
+   "buildId": "6424383",
+   "target": {
+    "name": "aosp_sargo-userdebug",
+    "target": "aosp_sargo-userdebug",
+    "buildCommands": [
+     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_sargo-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" build/soong/soong_ui.bash --make-mode TARGET_PRODUCT=aosp_sargo TARGET_BUILD_VARIANT=userdebug droid dist DIST_DIR=%dist_dir% with-license platform_tests continuous_instrumentation_tests continuous_native_tests",
+     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_sargo-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" prebuilts/remoteexecution-client/live/dumpstats"
+    ],
+    "buildPlatform": "linux",
+    "javaVersion": "1.8",
+    "launchcontrolName": "aosp_sargo-userdebug",
+    "product": "aosp_sargo",
+    "disabled": false,
+    "platformVersion": "trusty",
+    "incrementalBuild": false,
+    "priority": "medium"
+   },
+   "revision": "s3MMYSAHprgRhCB8Lov1kA==",
+   "successful": true,
+   "branch": "aosp-master-with-phones",
+   "signed": false,
+   "creationTimestamp": "1587677002397",
+   "buildAttemptStatus": "complete",
+   "worknodeId": "L30700000535976748:N13800000587832133",
    "testResultSummary": {
     "testsComplete": true,
     "allCriticalTestsPassed": true,
@@ -546,14 +392,14 @@
        "BVT": {
         "passed": true,
         "testTags": {
-         "apct/device_boot_health_test-postsubmit": "1488471452083",
-         "apct/net/netdutils_test": "1488471452084",
-         "apct/net/networking_framework_unit_test": "1488471452085"
+         "apct/net/netdutils_test": "1488471694844",
+         "apct/device_boot_health_test-postsubmit": "1488471694845",
+         "apct/net/networking_framework_unit_test": "1488471694846"
         },
         "passedTestTags": {
-         "apct/device_boot_health_test-postsubmit": "1488471452083",
-         "apct/net/networking_framework_unit_test": "1488471452085",
-         "apct/net/netdutils_test": "1488471452084"
+         "apct/net/netdutils_test": "1488471694844",
+         "apct/device_boot_health_test-postsubmit": "1488471694845",
+         "apct/net/networking_framework_unit_test": "1488471694846"
         }
        }
       }
@@ -565,358 +411,36 @@
    },
    "hasTests": true,
    "machineName": "abfarm-01279",
-   "completionTimestamp": "1587573516707",
-   "buildbotAvailableSpaceGb": "713",
+   "completionTimestamp": "1587706785370",
+   "buildbotAvailableSpaceGb": "688",
    "buildbotSwVersion": "androidbuild_buildbot_20200406.00_RC01",
-   "lastUpdatedTimestamp": "1587574308503"
+   "lastUpdatedTimestamp": "1587707753191"
   },
   {
-   "buildId": "6417521",
+   "buildId": "6424383",
    "target": {
-    "name": "aosp_crosshatch-userdebug",
-    "target": "aosp_crosshatch-userdebug",
+    "name": "aosp_taimen-userdebug",
+    "target": "aosp_taimen-userdebug",
     "buildCommands": [
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" build/soong/soong_ui.bash --make-mode TARGET_PRODUCT=aosp_crosshatch TARGET_BUILD_VARIANT=userdebug droid dist DIST_DIR=%dist_dir% with-license platform_tests continuous_instrumentation_tests continuous_native_tests",
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" prebuilts/remoteexecution-client/live/dumpstats"
+     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_taimen-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" build/soong/soong_ui.bash --make-mode TARGET_PRODUCT=aosp_taimen TARGET_BUILD_VARIANT=userdebug droid dist DIST_DIR=%dist_dir% with-license platform_tests continuous_instrumentation_tests continuous_native_tests",
+     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_taimen-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" prebuilts/remoteexecution-client/live/dumpstats"
     ],
     "buildPlatform": "linux",
     "javaVersion": "1.8",
-    "launchcontrolName": "aosp_crosshatch-userdebug",
-    "product": "aosp_crosshatch",
+    "launchcontrolName": "aosp_taimen-userdebug",
+    "product": "aosp_taimen",
     "disabled": false,
     "platformVersion": "trusty",
     "incrementalBuild": false,
-    "priority": "medium",
-    "ownerInfo": {
-     "owner": "bluecross-build@google.com",
-     "expirationDate": "1599841224000"
-    }
+    "priority": "medium"
    },
-   "revision": "fY4PFxfs9axwFXpUXzGtjg==",
+   "revision": "2VlBv8Ti5c3lQAhUn/bLTA==",
    "successful": true,
    "branch": "aosp-master-with-phones",
    "signed": false,
-   "creationTimestamp": "1587532265328",
+   "creationTimestamp": "1587677001222",
    "buildAttemptStatus": "complete",
-   "worknodeId": "L82300000533895239:N21800000584896053",
-   "testResultSummary": {
-    "testsComplete": true,
-    "allCriticalTestsPassed": true,
-    "toolGroups": {
-     "ATP": {
-      "testSuites": {
-       "BVT": {
-        "passed": true,
-        "testTags": {
-         "apct/device_boot_health_test-postsubmit": "1488471441298",
-         "apct/net/netdutils_test": "1488471441303",
-         "apct/net/networking_framework_unit_test": "1488471441304"
-        },
-        "passedTestTags": {
-         "apct/net/networking_framework_unit_test": "1488471441304",
-         "apct/net/netdutils_test": "1488471441303",
-         "apct/device_boot_health_test-postsubmit": "1488471441298"
-        }
-       }
-      }
-     }
-    },
-    "completedTools": [
-     "atp"
-    ]
-   },
-   "hasTests": true,
-   "machineName": "abfarm-east4-104",
-   "completionTimestamp": "1587566031645",
-   "buildbotAvailableSpaceGb": "673",
-   "buildbotSwVersion": "androidbuild_buildbot_20200406.00_RC01",
-   "lastUpdatedTimestamp": "1587567001625",
-   "progress": {
-    "buildAttemptStatus": "syncing",
-    "lastUpdateTimestampSecond": "1587557021",
-    "totalActionCount": "805",
-    "finishedActionCount": "805",
-    "failedActionCount": "0",
-    "progressPercentage": 100.0
-   }
-  },
-  {
-   "buildId": "6417502",
-   "target": {
-    "name": "aosp_crosshatch-userdebug",
-    "target": "aosp_crosshatch-userdebug",
-    "buildCommands": [
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" build/soong/soong_ui.bash --make-mode TARGET_PRODUCT=aosp_crosshatch TARGET_BUILD_VARIANT=userdebug droid dist DIST_DIR=%dist_dir% with-license platform_tests continuous_instrumentation_tests continuous_native_tests",
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" prebuilts/remoteexecution-client/live/dumpstats"
-    ],
-    "buildPlatform": "linux",
-    "javaVersion": "1.8",
-    "launchcontrolName": "aosp_crosshatch-userdebug",
-    "product": "aosp_crosshatch",
-    "disabled": false,
-    "platformVersion": "trusty",
-    "incrementalBuild": false,
-    "priority": "low",
-    "ownerInfo": {
-     "owner": "bluecross-build@google.com",
-     "expirationDate": "1599841224000"
-    }
-   },
-   "revision": "U0QbqyeBs7KU4mjRiXAyhw==",
-   "successful": true,
-   "branch": "aosp-master-with-phones",
-   "signed": false,
-   "creationTimestamp": "1587531895310",
-   "buildAttemptStatus": "complete",
-   "worknodeId": "L46900000533888674:N32500000584887652",
-   "testResultSummary": {
-    "testsComplete": true,
-    "allCriticalTestsPassed": true,
-    "toolGroups": {
-     "ATP": {
-      "testSuites": {
-       "BVT": {
-        "passed": true,
-        "testTags": {
-         "apct/device_boot_health_test-postsubmit": "1488471391306",
-         "apct/net/netdutils_test": "1488471391307",
-         "apct/net/networking_framework_unit_test": "1488471391308"
-        },
-        "passedTestTags": {
-         "apct/net/networking_framework_unit_test": "1488471391308",
-         "apct/net/netdutils_test": "1488471391307",
-         "apct/device_boot_health_test-postsubmit": "1488471391306"
-        }
-       }
-      }
-     }
-    },
-    "completedTools": [
-     "atp"
-    ]
-   },
-   "hasTests": true,
-   "machineName": "abfarm-us-west1-c-0044",
-   "completionTimestamp": "1587538254778",
-   "buildbotAvailableSpaceGb": "664",
-   "buildbotSwVersion": "androidbuild_buildbot_20200406.00_RC01",
-   "lastUpdatedTimestamp": "1587539412449"
-  },
-  {
-   "buildId": "6417363",
-   "target": {
-    "name": "aosp_crosshatch-userdebug",
-    "target": "aosp_crosshatch-userdebug",
-    "buildCommands": [
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" build/soong/soong_ui.bash --make-mode TARGET_PRODUCT=aosp_crosshatch TARGET_BUILD_VARIANT=userdebug droid dist DIST_DIR=%dist_dir% with-license platform_tests continuous_instrumentation_tests continuous_native_tests",
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" prebuilts/remoteexecution-client/live/dumpstats"
-    ],
-    "buildPlatform": "linux",
-    "javaVersion": "1.8",
-    "launchcontrolName": "aosp_crosshatch-userdebug",
-    "product": "aosp_crosshatch",
-    "disabled": false,
-    "platformVersion": "trusty",
-    "incrementalBuild": false,
-    "priority": "low",
-    "ownerInfo": {
-     "owner": "bluecross-build@google.com",
-     "expirationDate": "1599841224000"
-    }
-   },
-   "revision": "iNfd+Yt/eIxWfGXkvrZiAg==",
-   "successful": true,
-   "branch": "aosp-master-with-phones",
-   "signed": false,
-   "creationTimestamp": "1587528498251",
-   "buildAttemptStatus": "complete",
-   "worknodeId": "L06500000533843123:N53200000584819887",
-   "testResultSummary": {
-    "testsComplete": true,
-    "allCriticalTestsPassed": true,
-    "toolGroups": {
-     "ATP": {
-      "testSuites": {
-       "BVT": {
-        "passed": true,
-        "testTags": {
-         "apct/device_boot_health_test-postsubmit": "1488471380045",
-         "apct/net/netdutils_test": "1488471380046",
-         "apct/net/networking_framework_unit_test": "1488471380047"
-        },
-        "passedTestTags": {
-         "apct/net/netdutils_test": "1488471380046",
-         "apct/device_boot_health_test-postsubmit": "1488471380045",
-         "apct/net/networking_framework_unit_test": "1488471380047"
-        }
-       }
-      }
-     }
-    },
-    "completedTools": [
-     "atp"
-    ]
-   },
-   "hasTests": true,
-   "machineName": "abfarm-01175",
-   "completionTimestamp": "1587532833714",
-   "buildbotAvailableSpaceGb": "670",
-   "buildbotSwVersion": "androidbuild_buildbot_20200406.00_RC01",
-   "lastUpdatedTimestamp": "1587537756146"
-  },
-  {
-   "buildId": "6416803",
-   "target": {
-    "name": "aosp_crosshatch-userdebug",
-    "target": "aosp_crosshatch-userdebug",
-    "buildCommands": [
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" build/soong/soong_ui.bash --make-mode TARGET_PRODUCT=aosp_crosshatch TARGET_BUILD_VARIANT=userdebug droid dist DIST_DIR=%dist_dir% with-license platform_tests continuous_instrumentation_tests continuous_native_tests",
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" prebuilts/remoteexecution-client/live/dumpstats"
-    ],
-    "buildPlatform": "linux",
-    "javaVersion": "1.8",
-    "launchcontrolName": "aosp_crosshatch-userdebug",
-    "product": "aosp_crosshatch",
-    "disabled": false,
-    "platformVersion": "trusty",
-    "incrementalBuild": false,
-    "priority": "medium",
-    "ownerInfo": {
-     "owner": "bluecross-build@google.com",
-     "expirationDate": "1599841224000"
-    }
-   },
-   "revision": "noHT9i9ESwhy5fyRML8weg==",
-   "successful": true,
-   "branch": "aosp-master-with-phones",
-   "signed": false,
-   "creationTimestamp": "1587517592118",
-   "buildAttemptStatus": "complete",
-   "worknodeId": "L55600000533683240:N69500000584593383",
-   "testResultSummary": {
-    "testsComplete": true,
-    "allCriticalTestsPassed": true,
-    "toolGroups": {
-     "ATP": {
-      "testSuites": {
-       "BVT": {
-        "passed": true,
-        "testTags": {
-         "apct/device_boot_health_test-postsubmit": "1488471403116",
-         "apct/net/netdutils_test": "1488471403117",
-         "apct/net/networking_framework_unit_test": "1488471403118"
-        },
-        "passedTestTags": {
-         "apct/net/networking_framework_unit_test": "1488471403118",
-         "apct/device_boot_health_test-postsubmit": "1488471403116",
-         "apct/net/netdutils_test": "1488471403117"
-        }
-       }
-      }
-     }
-    },
-    "completedTools": [
-     "atp"
-    ]
-   },
-   "hasTests": true,
-   "machineName": "abfarm471",
-   "completionTimestamp": "1587544577037",
-   "buildbotAvailableSpaceGb": "737",
-   "buildbotSwVersion": "androidbuild_buildbot_20200406.00_RC01",
-   "lastUpdatedTimestamp": "1587548479707"
-  },
-  {
-   "buildId": "6416083",
-   "target": {
-    "name": "aosp_crosshatch-userdebug",
-    "target": "aosp_crosshatch-userdebug",
-    "buildCommands": [
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" build/soong/soong_ui.bash --make-mode TARGET_PRODUCT=aosp_crosshatch TARGET_BUILD_VARIANT=userdebug droid dist DIST_DIR=%dist_dir% with-license platform_tests continuous_instrumentation_tests continuous_native_tests",
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" prebuilts/remoteexecution-client/live/dumpstats"
-    ],
-    "buildPlatform": "linux",
-    "javaVersion": "1.8",
-    "launchcontrolName": "aosp_crosshatch-userdebug",
-    "product": "aosp_crosshatch",
-    "disabled": false,
-    "platformVersion": "trusty",
-    "incrementalBuild": false,
-    "priority": "low",
-    "ownerInfo": {
-     "owner": "bluecross-build@google.com",
-     "expirationDate": "1599841224000"
-    }
-   },
-   "revision": "h4XgagDCuaMmWwtQ9p39Jw==",
-   "successful": true,
-   "branch": "aosp-master-with-phones",
-   "signed": false,
-   "creationTimestamp": "1587506622854",
-   "buildAttemptStatus": "complete",
-   "worknodeId": "L90600000533496592:N01300000584337058",
-   "testResultSummary": {
-    "testsComplete": true,
-    "allCriticalTestsPassed": true,
-    "toolGroups": {
-     "ATP": {
-      "testSuites": {
-       "BVT": {
-        "passed": true,
-        "testTags": {
-         "apct/device_boot_health_test-postsubmit": "1488471336934",
-         "apct/net/netdutils_test": "1488471336935",
-         "apct/net/networking_framework_unit_test": "1488471336937"
-        },
-        "passedTestTags": {
-         "apct/net/netdutils_test": "1488471336935",
-         "apct/device_boot_health_test-postsubmit": "1488471336934",
-         "apct/net/networking_framework_unit_test": "1488471336937"
-        }
-       }
-      }
-     }
-    },
-    "completedTools": [
-     "atp"
-    ]
-   },
-   "hasTests": true,
-   "machineName": "abfarm-01226",
-   "completionTimestamp": "1587511871938",
-   "buildbotAvailableSpaceGb": "651",
-   "buildbotSwVersion": "androidbuild_buildbot_20200406.00_RC01",
-   "lastUpdatedTimestamp": "1587515953860"
-  },
-  {
-   "buildId": "6415962",
-   "target": {
-    "name": "aosp_crosshatch-userdebug",
-    "target": "aosp_crosshatch-userdebug",
-    "buildCommands": [
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" build/soong/soong_ui.bash --make-mode TARGET_PRODUCT=aosp_crosshatch TARGET_BUILD_VARIANT=userdebug droid dist DIST_DIR=%dist_dir% with-license platform_tests continuous_instrumentation_tests continuous_native_tests",
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" prebuilts/remoteexecution-client/live/dumpstats"
-    ],
-    "buildPlatform": "linux",
-    "javaVersion": "1.8",
-    "launchcontrolName": "aosp_crosshatch-userdebug",
-    "product": "aosp_crosshatch",
-    "disabled": false,
-    "platformVersion": "trusty",
-    "incrementalBuild": false,
-    "priority": "medium",
-    "ownerInfo": {
-     "owner": "bluecross-build@google.com",
-     "expirationDate": "1599841224000"
-    }
-   },
-   "revision": "tmYfdU8ozQojph+CI+yJmw==",
-   "successful": true,
-   "branch": "aosp-master-with-phones",
-   "signed": false,
-   "creationTimestamp": "1587504052200",
-   "buildAttemptStatus": "complete",
-   "worknodeId": "L40700000533454879:N02900000584276888",
+   "worknodeId": "L30700000535976748:N66900000587832134",
    "testResultSummary": {
     "testsComplete": true,
     "allCriticalTestsPassed": false,
@@ -926,523 +450,13 @@
        "BVT": {
         "passed": false,
         "testTags": {
-         "apct/net/netdutils_test": "1488471386107",
-         "apct/device_boot_health_test-postsubmit": "1488471386108",
-         "apct/net/networking_framework_unit_test": "1488471386109"
+         "apct/device_boot_health_test-postsubmit": "1488471687525",
+         "apct/net/netdutils_test": "1488471687526",
+         "apct/net/networking_framework_unit_test": "1488471687527"
         },
         "passedTestTags": {
-         "apct/net/networking_framework_unit_test": "1488471386109"
-        }
-       }
-      }
-     }
-    },
-    "completedTools": [
-     "atp"
-    ]
-   },
-   "hasTests": true,
-   "machineName": "abfarm470",
-   "completionTimestamp": "1587535633055",
-   "buildbotAvailableSpaceGb": "669",
-   "buildbotSwVersion": "androidbuild_buildbot_20200406.00_RC01",
-   "lastUpdatedTimestamp": "1587536577895",
-   "progress": {
-    "buildAttemptStatus": "syncing",
-    "lastUpdateTimestampSecond": "1587526331",
-    "totalActionCount": "805",
-    "finishedActionCount": "805",
-    "failedActionCount": "0",
-    "progressPercentage": 100.0
-   }
-  },
-  {
-   "buildId": "6415835",
-   "target": {
-    "name": "aosp_crosshatch-userdebug",
-    "target": "aosp_crosshatch-userdebug",
-    "buildCommands": [
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" build/soong/soong_ui.bash --make-mode TARGET_PRODUCT=aosp_crosshatch TARGET_BUILD_VARIANT=userdebug droid dist DIST_DIR=%dist_dir% with-license platform_tests continuous_instrumentation_tests continuous_native_tests",
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" prebuilts/remoteexecution-client/live/dumpstats"
-    ],
-    "buildPlatform": "linux",
-    "javaVersion": "1.8",
-    "launchcontrolName": "aosp_crosshatch-userdebug",
-    "product": "aosp_crosshatch",
-    "disabled": false,
-    "platformVersion": "trusty",
-    "incrementalBuild": false,
-    "priority": "low",
-    "ownerInfo": {
-     "owner": "bluecross-build@google.com",
-     "expirationDate": "1599841224000"
-    }
-   },
-   "revision": "LZB3KSJuADMESxP/d6LH6w==",
-   "successful": true,
-   "branch": "aosp-master-with-phones",
-   "signed": false,
-   "creationTimestamp": "1587501393601",
-   "buildAttemptStatus": "complete",
-   "worknodeId": "L22300000533415893:N22600000584221797",
-   "testResultSummary": {
-    "testsComplete": true,
-    "allCriticalTestsPassed": true,
-    "toolGroups": {
-     "ATP": {
-      "testSuites": {
-       "BVT": {
-        "passed": true,
-        "testTags": {
-         "apct/device_boot_health_test-postsubmit": "1488471326202",
-         "apct/net/netdutils_test": "1488471326203",
-         "apct/net/networking_framework_unit_test": "1488471326204"
-        },
-        "passedTestTags": {
-         "apct/device_boot_health_test-postsubmit": "1488471326202",
-         "apct/net/netdutils_test": "1488471326203",
-         "apct/net/networking_framework_unit_test": "1488471326204"
-        }
-       }
-      }
-     }
-    },
-    "completedTools": [
-     "atp"
-    ]
-   },
-   "hasTests": true,
-   "machineName": "abfarm-01128",
-   "completionTimestamp": "1587505648315",
-   "buildbotAvailableSpaceGb": "715",
-   "buildbotSwVersion": "androidbuild_buildbot_20200406.00_RC01",
-   "lastUpdatedTimestamp": "1587509024448"
-  },
-  {
-   "buildId": "6415507",
-   "target": {
-    "name": "aosp_crosshatch-userdebug",
-    "target": "aosp_crosshatch-userdebug",
-    "buildCommands": [
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" build/soong/soong_ui.bash --make-mode TARGET_PRODUCT=aosp_crosshatch TARGET_BUILD_VARIANT=userdebug droid dist DIST_DIR=%dist_dir% with-license platform_tests continuous_instrumentation_tests continuous_native_tests",
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" prebuilts/remoteexecution-client/live/dumpstats"
-    ],
-    "buildPlatform": "linux",
-    "javaVersion": "1.8",
-    "launchcontrolName": "aosp_crosshatch-userdebug",
-    "product": "aosp_crosshatch",
-    "disabled": false,
-    "platformVersion": "trusty",
-    "incrementalBuild": false,
-    "priority": "low",
-    "ownerInfo": {
-     "owner": "bluecross-build@google.com",
-     "expirationDate": "1599841224000"
-    }
-   },
-   "revision": "yUFPGngzpfZKCpbYH6G+DQ==",
-   "successful": true,
-   "branch": "aosp-master-with-phones",
-   "signed": false,
-   "creationTimestamp": "1587496334836",
-   "buildAttemptStatus": "complete",
-   "worknodeId": "L98000000533330548:N81800000584106836",
-   "testResultSummary": {
-    "testsComplete": true,
-    "allCriticalTestsPassed": false,
-    "toolGroups": {
-     "ATP": {
-      "testSuites": {
-       "BVT": {
-        "passed": false,
-        "testTags": {
-         "apct/device_boot_health_test-postsubmit": "1488471319638",
-         "apct/net/netdutils_test": "1488471319639",
-         "apct/net/networking_framework_unit_test": "1488471319640"
-        },
-        "passedTestTags": {
-         "apct/device_boot_health_test-postsubmit": "1488471319638",
-         "apct/net/netdutils_test": "1488471319639"
-        }
-       }
-      }
-     }
-    },
-    "completedTools": [
-     "atp"
-    ]
-   },
-   "hasTests": true,
-   "machineName": "abfarm-east4-022",
-   "completionTimestamp": "1587502215980",
-   "buildbotAvailableSpaceGb": "678",
-   "buildbotSwVersion": "androidbuild_buildbot_20200420.00_RC00",
-   "lastUpdatedTimestamp": "1587510133139",
-   "progress": {
-    "buildAttemptStatus": "syncing",
-    "lastUpdateTimestampSecond": "1587498018",
-    "totalActionCount": "805",
-    "finishedActionCount": "805",
-    "failedActionCount": "0",
-    "progressPercentage": 100.0
-   }
-  },
-  {
-   "buildId": "6415478",
-   "target": {
-    "name": "aosp_crosshatch-userdebug",
-    "target": "aosp_crosshatch-userdebug",
-    "buildCommands": [
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" build/soong/soong_ui.bash --make-mode TARGET_PRODUCT=aosp_crosshatch TARGET_BUILD_VARIANT=userdebug droid dist DIST_DIR=%dist_dir% with-license platform_tests continuous_instrumentation_tests continuous_native_tests",
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" prebuilts/remoteexecution-client/live/dumpstats"
-    ],
-    "buildPlatform": "linux",
-    "javaVersion": "1.8",
-    "launchcontrolName": "aosp_crosshatch-userdebug",
-    "product": "aosp_crosshatch",
-    "disabled": false,
-    "platformVersion": "trusty",
-    "incrementalBuild": false,
-    "priority": "low",
-    "ownerInfo": {
-     "owner": "bluecross-build@google.com",
-     "expirationDate": "1599841224000"
-    }
-   },
-   "revision": "Mb1CwofA5LpJJtx4SA3krQ==",
-   "successful": true,
-   "branch": "aosp-master-with-phones",
-   "signed": false,
-   "creationTimestamp": "1587495743273",
-   "buildAttemptStatus": "complete",
-   "worknodeId": "L49500000533320852:N33200000584092374",
-   "testResultSummary": {
-    "testsComplete": true,
-    "allCriticalTestsPassed": true,
-    "toolGroups": {
-     "ATP": {
-      "testSuites": {
-       "BVT": {
-        "passed": true,
-        "testTags": {
-         "apct/device_boot_health_test-postsubmit": "1488471314879",
-         "apct/net/netdutils_test": "1488471314880",
-         "apct/net/networking_framework_unit_test": "1488471314881"
-        },
-        "passedTestTags": {
-         "apct/net/networking_framework_unit_test": "1488471314881",
-         "apct/net/netdutils_test": "1488471314880",
-         "apct/device_boot_health_test-postsubmit": "1488471314879"
-        }
-       }
-      }
-     }
-    },
-    "completedTools": [
-     "atp"
-    ]
-   },
-   "hasTests": true,
-   "machineName": "abfarm-us-central1-c-0020",
-   "completionTimestamp": "1587499616477",
-   "buildbotAvailableSpaceGb": "680",
-   "buildbotSwVersion": "androidbuild_buildbot_20200406.00_RC01",
-   "lastUpdatedTimestamp": "1587503320480"
-  },
-  {
-   "buildId": "6415182",
-   "target": {
-    "name": "aosp_crosshatch-userdebug",
-    "target": "aosp_crosshatch-userdebug",
-    "buildCommands": [
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" build/soong/soong_ui.bash --make-mode TARGET_PRODUCT=aosp_crosshatch TARGET_BUILD_VARIANT=userdebug droid dist DIST_DIR=%dist_dir% with-license platform_tests continuous_instrumentation_tests continuous_native_tests",
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" prebuilts/remoteexecution-client/live/dumpstats"
-    ],
-    "buildPlatform": "linux",
-    "javaVersion": "1.8",
-    "launchcontrolName": "aosp_crosshatch-userdebug",
-    "product": "aosp_crosshatch",
-    "disabled": false,
-    "platformVersion": "trusty",
-    "incrementalBuild": false,
-    "priority": "medium",
-    "ownerInfo": {
-     "owner": "bluecross-build@google.com",
-     "expirationDate": "1599841224000"
-    }
-   },
-   "revision": "Y0fqHRLbRP2Gtzib5U0/vA==",
-   "successful": true,
-   "branch": "aosp-master-with-phones",
-   "signed": false,
-   "creationTimestamp": "1587489633544",
-   "buildAttemptStatus": "complete",
-   "worknodeId": "L00200000533225508:N43500000583957014",
-   "testResultSummary": {
-    "testsComplete": true,
-    "allCriticalTestsPassed": true,
-    "toolGroups": {
-     "ATP": {
-      "testSuites": {
-       "BVT": {
-        "passed": true,
-        "testTags": {
-         "apct/device_boot_health_test-postsubmit": "1488471337871",
-         "apct/net/netdutils_test": "1488471337872",
-         "apct/net/networking_framework_unit_test": "1488471337873"
-        },
-        "passedTestTags": {
-         "apct/net/netdutils_test": "1488471337872",
-         "apct/net/networking_framework_unit_test": "1488471337873",
-         "apct/device_boot_health_test-postsubmit": "1488471337871"
-        }
-       }
-      }
-     }
-    },
-    "completedTools": [
-     "atp"
-    ]
-   },
-   "hasTests": true,
-   "machineName": "abfarm-us-west1-c-0034",
-   "completionTimestamp": "1587512564306",
-   "buildbotAvailableSpaceGb": "702",
-   "buildbotSwVersion": "androidbuild_buildbot_20200406.00_RC01",
-   "lastUpdatedTimestamp": "1587517577100"
-  },
-  {
-   "buildId": "6414951",
-   "target": {
-    "name": "aosp_crosshatch-userdebug",
-    "target": "aosp_crosshatch-userdebug",
-    "buildCommands": [
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" build/soong/soong_ui.bash --make-mode TARGET_PRODUCT=aosp_crosshatch TARGET_BUILD_VARIANT=userdebug droid dist DIST_DIR=%dist_dir% with-license platform_tests continuous_instrumentation_tests continuous_native_tests",
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" prebuilts/remoteexecution-client/live/dumpstats"
-    ],
-    "buildPlatform": "linux",
-    "javaVersion": "1.8",
-    "launchcontrolName": "aosp_crosshatch-userdebug",
-    "product": "aosp_crosshatch",
-    "disabled": false,
-    "platformVersion": "trusty",
-    "incrementalBuild": false,
-    "priority": "low",
-    "ownerInfo": {
-     "owner": "bluecross-build@google.com",
-     "expirationDate": "1599841224000"
-    }
-   },
-   "revision": "ucxXMg0jKVU3egZUK3Ipww==",
-   "successful": true,
-   "branch": "aosp-master-with-phones",
-   "signed": false,
-   "creationTimestamp": "1587485106618",
-   "buildAttemptStatus": "complete",
-   "worknodeId": "L13300000533150061:N51000000583851768",
-   "testResultSummary": {
-    "testsComplete": true,
-    "allCriticalTestsPassed": true,
-    "toolGroups": {
-     "ATP": {
-      "testSuites": {
-       "BVT": {
-        "passed": true,
-        "testTags": {
-         "apct/device_boot_health_test-postsubmit": "1488471294145",
-         "apct/net/netdutils_test": "1488471294146",
-         "apct/net/networking_framework_unit_test": "1488471294147"
-        },
-        "passedTestTags": {
-         "apct/net/netdutils_test": "1488471294146",
-         "apct/net/networking_framework_unit_test": "1488471294147",
-         "apct/device_boot_health_test-postsubmit": "1488471294145"
-        }
-       }
-      }
-     }
-    },
-    "completedTools": [
-     "atp"
-    ]
-   },
-   "hasTests": true,
-   "machineName": "abfarm-east4-093",
-   "completionTimestamp": "1587488633634",
-   "buildbotAvailableSpaceGb": "674",
-   "buildbotSwVersion": "androidbuild_buildbot_20200406.00_RC01",
-   "lastUpdatedTimestamp": "1587489439981"
-  },
-  {
-   "buildId": "6414900",
-   "target": {
-    "name": "aosp_crosshatch-userdebug",
-    "target": "aosp_crosshatch-userdebug",
-    "buildCommands": [
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" build/soong/soong_ui.bash --make-mode TARGET_PRODUCT=aosp_crosshatch TARGET_BUILD_VARIANT=userdebug droid dist DIST_DIR=%dist_dir% with-license platform_tests continuous_instrumentation_tests continuous_native_tests",
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" prebuilts/remoteexecution-client/live/dumpstats"
-    ],
-    "buildPlatform": "linux",
-    "javaVersion": "1.8",
-    "launchcontrolName": "aosp_crosshatch-userdebug",
-    "product": "aosp_crosshatch",
-    "disabled": false,
-    "platformVersion": "trusty",
-    "incrementalBuild": false,
-    "priority": "low",
-    "ownerInfo": {
-     "owner": "bluecross-build@google.com",
-     "expirationDate": "1599841224000"
-    }
-   },
-   "revision": "we2ahxqrc7Hm4arcuxaCeA==",
-   "successful": true,
-   "branch": "aosp-master-with-phones",
-   "signed": false,
-   "creationTimestamp": "1587483564377",
-   "buildAttemptStatus": "complete",
-   "worknodeId": "L69700000533135315:N57300000583829048",
-   "testResultSummary": {
-    "testsComplete": true,
-    "allCriticalTestsPassed": true,
-    "toolGroups": {
-     "ATP": {
-      "testSuites": {
-       "BVT": {
-        "passed": true,
-        "testTags": {
-         "apct/device_boot_health_test-postsubmit": "1488471296432",
-         "apct/net/netdutils_test": "1488471296433",
-         "apct/net/networking_framework_unit_test": "1488471296434"
-        },
-        "passedTestTags": {
-         "apct/net/netdutils_test": "1488471296433",
-         "apct/net/networking_framework_unit_test": "1488471296434",
-         "apct/device_boot_health_test-postsubmit": "1488471296432"
-        }
-       }
-      }
-     }
-    },
-    "completedTools": [
-     "atp"
-    ]
-   },
-   "hasTests": true,
-   "machineName": "abfarm-east4-099",
-   "completionTimestamp": "1587489851708",
-   "buildbotAvailableSpaceGb": "660",
-   "buildbotSwVersion": "androidbuild_buildbot_20200406.00_RC01",
-   "lastUpdatedTimestamp": "1587490662053"
-  },
-  {
-   "buildId": "6414856",
-   "target": {
-    "name": "aosp_crosshatch-userdebug",
-    "target": "aosp_crosshatch-userdebug",
-    "buildCommands": [
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" build/soong/soong_ui.bash --make-mode TARGET_PRODUCT=aosp_crosshatch TARGET_BUILD_VARIANT=userdebug droid dist DIST_DIR=%dist_dir% with-license platform_tests continuous_instrumentation_tests continuous_native_tests",
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" prebuilts/remoteexecution-client/live/dumpstats"
-    ],
-    "buildPlatform": "linux",
-    "javaVersion": "1.8",
-    "launchcontrolName": "aosp_crosshatch-userdebug",
-    "product": "aosp_crosshatch",
-    "disabled": false,
-    "platformVersion": "trusty",
-    "incrementalBuild": false,
-    "priority": "low",
-    "ownerInfo": {
-     "owner": "bluecross-build@google.com",
-     "expirationDate": "1599841224000"
-    }
-   },
-   "revision": "yADdznEhl2Iqa0PSvk7bjQ==",
-   "successful": true,
-   "branch": "aosp-master-with-phones",
-   "signed": false,
-   "creationTimestamp": "1587482332809",
-   "buildAttemptStatus": "complete",
-   "worknodeId": "L89800000533121478:N52100000583806990",
-   "testResultSummary": {
-    "testsComplete": true,
-    "allCriticalTestsPassed": true,
-    "toolGroups": {
-     "ATP": {
-      "testSuites": {
-       "BVT": {
-        "passed": true,
-        "testTags": {
-         "apct/device_boot_health_test-postsubmit": "1488471295340",
-         "apct/net/netdutils_test": "1488471295341",
-         "apct/net/networking_framework_unit_test": "1488471295342"
-        },
-        "passedTestTags": {
-         "apct/net/netdutils_test": "1488471295341",
-         "apct/net/networking_framework_unit_test": "1488471295342",
-         "apct/device_boot_health_test-postsubmit": "1488471295340"
-        }
-       }
-      }
-     }
-    },
-    "completedTools": [
-     "atp"
-    ]
-   },
-   "hasTests": true,
-   "machineName": "abfarm-us-west1-c-0038",
-   "completionTimestamp": "1587489250455",
-   "buildbotAvailableSpaceGb": "687",
-   "buildbotSwVersion": "androidbuild_buildbot_20200406.00_RC01",
-   "lastUpdatedTimestamp": "1587490451009"
-  },
-  {
-   "buildId": "6414842",
-   "target": {
-    "name": "aosp_crosshatch-userdebug",
-    "target": "aosp_crosshatch-userdebug",
-    "buildCommands": [
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" build/soong/soong_ui.bash --make-mode TARGET_PRODUCT=aosp_crosshatch TARGET_BUILD_VARIANT=userdebug droid dist DIST_DIR=%dist_dir% with-license platform_tests continuous_instrumentation_tests continuous_native_tests",
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" prebuilts/remoteexecution-client/live/dumpstats"
-    ],
-    "buildPlatform": "linux",
-    "javaVersion": "1.8",
-    "launchcontrolName": "aosp_crosshatch-userdebug",
-    "product": "aosp_crosshatch",
-    "disabled": false,
-    "platformVersion": "trusty",
-    "incrementalBuild": false,
-    "priority": "low",
-    "ownerInfo": {
-     "owner": "bluecross-build@google.com",
-     "expirationDate": "1599841224000"
-    }
-   },
-   "revision": "uHxAIyznMTN1eulYdqcbvA==",
-   "successful": true,
-   "branch": "aosp-master-with-phones",
-   "signed": false,
-   "creationTimestamp": "1587482150926",
-   "buildAttemptStatus": "complete",
-   "worknodeId": "L76300000533117943:N55200000583802950",
-   "testResultSummary": {
-    "testsComplete": true,
-    "allCriticalTestsPassed": true,
-    "toolGroups": {
-     "ATP": {
-      "testSuites": {
-       "BVT": {
-        "passed": true,
-        "testTags": {
-         "apct/device_boot_health_test-postsubmit": "1488471290978",
-         "apct/net/networking_framework_unit_test": "1488471290979",
-         "apct/net/netdutils_test": "1488471290980"
-        },
-        "passedTestTags": {
-         "apct/net/netdutils_test": "1488471290980",
-         "apct/net/networking_framework_unit_test": "1488471290979",
-         "apct/device_boot_health_test-postsubmit": "1488471290978"
+         "apct/net/netdutils_test": "1488471687526",
+         "apct/net/networking_framework_unit_test": "1488471687527"
         }
        }
       }
@@ -1454,40 +468,36 @@
    },
    "hasTests": true,
    "machineName": "abfarm-01230",
-   "completionTimestamp": "1587486694974",
-   "buildbotAvailableSpaceGb": "650",
+   "completionTimestamp": "1587703547966",
+   "buildbotAvailableSpaceGb": "714",
    "buildbotSwVersion": "androidbuild_buildbot_20200406.00_RC01",
-   "lastUpdatedTimestamp": "1587491125896"
+   "lastUpdatedTimestamp": "1587704233752"
   },
   {
-   "buildId": "6414828",
+   "buildId": "6424383",
    "target": {
-    "name": "aosp_crosshatch-userdebug",
-    "target": "aosp_crosshatch-userdebug",
+    "name": "aosp_walleye-userdebug",
+    "target": "aosp_walleye-userdebug",
     "buildCommands": [
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" build/soong/soong_ui.bash --make-mode TARGET_PRODUCT=aosp_crosshatch TARGET_BUILD_VARIANT=userdebug droid dist DIST_DIR=%dist_dir% with-license platform_tests continuous_instrumentation_tests continuous_native_tests",
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" prebuilts/remoteexecution-client/live/dumpstats"
+     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_walleye-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" build/soong/soong_ui.bash --make-mode TARGET_PRODUCT=aosp_walleye TARGET_BUILD_VARIANT=userdebug droid dist DIST_DIR=%dist_dir% with-license platform_tests continuous_instrumentation_tests continuous_native_tests",
+     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_walleye-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" prebuilts/remoteexecution-client/live/dumpstats"
     ],
     "buildPlatform": "linux",
     "javaVersion": "1.8",
-    "launchcontrolName": "aosp_crosshatch-userdebug",
-    "product": "aosp_crosshatch",
+    "launchcontrolName": "aosp_walleye-userdebug",
+    "product": "aosp_walleye",
     "disabled": false,
     "platformVersion": "trusty",
     "incrementalBuild": false,
-    "priority": "low",
-    "ownerInfo": {
-     "owner": "bluecross-build@google.com",
-     "expirationDate": "1599841224000"
-    }
+    "priority": "medium"
    },
-   "revision": "Y962IS2CIP9uXQQTBiGBdQ==",
+   "revision": "4CX0Pmyt/qRu8e99QZkfgQ==",
    "successful": true,
    "branch": "aosp-master-with-phones",
    "signed": false,
-   "creationTimestamp": "1587481664291",
+   "creationTimestamp": "1587677002547",
    "buildAttemptStatus": "complete",
-   "worknodeId": "L27900000533113297:N02000000583795033",
+   "worknodeId": "L30700000535976748:N52300000587832135",
    "testResultSummary": {
     "testsComplete": true,
     "allCriticalTestsPassed": true,
@@ -1497,14 +507,18 @@
        "BVT": {
         "passed": true,
         "testTags": {
-         "apct/device_boot_health_test-postsubmit": "1488471288331",
-         "apct/net/netdutils_test": "1488471288332",
-         "apct/net/networking_framework_unit_test": "1488471288333"
+         "apct/device_boot_health_test-postsubmit": "1488471696848",
+         "apct/net/netdutils_test": "1488471696849",
+         "apct/net/networking_framework_unit_test": "1488471696850",
+         "apct/bluetooth/instrumentation_test": "1488471696851",
+         "apct/bluetooth/native_test_64": "1488471696852"
         },
         "passedTestTags": {
-         "apct/device_boot_health_test-postsubmit": "1488471288331",
-         "apct/net/netdutils_test": "1488471288332",
-         "apct/net/networking_framework_unit_test": "1488471288333"
+         "apct/net/netdutils_test": "1488471696849",
+         "apct/bluetooth/native_test_64": "1488471696852",
+         "apct/device_boot_health_test-postsubmit": "1488471696848",
+         "apct/bluetooth/instrumentation_test": "1488471696851",
+         "apct/net/networking_framework_unit_test": "1488471696850"
         }
        }
       }
@@ -1515,73 +529,11 @@
     ]
    },
    "hasTests": true,
-   "machineName": "abfarm-east4-058",
-   "completionTimestamp": "1587485256867",
-   "buildbotAvailableSpaceGb": "650",
+   "machineName": "abfarm-01289",
+   "completionTimestamp": "1587707709819",
+   "buildbotAvailableSpaceGb": "651",
    "buildbotSwVersion": "androidbuild_buildbot_20200406.00_RC01",
-   "lastUpdatedTimestamp": "1587489731971"
-  },
-  {
-   "buildId": "6414791",
-   "target": {
-    "name": "aosp_crosshatch-userdebug",
-    "target": "aosp_crosshatch-userdebug",
-    "buildCommands": [
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" build/soong/soong_ui.bash --make-mode TARGET_PRODUCT=aosp_crosshatch TARGET_BUILD_VARIANT=userdebug droid dist DIST_DIR=%dist_dir% with-license platform_tests continuous_instrumentation_tests continuous_native_tests",
-     "USE_RBE=\"true\" FLAG_use_gce_credentials=\"true\" FLAG_server_address=\"unix:///tmp/reproxy_$RANDOM.sock\" NINJA_REMOTE_NUM_JOBS=\"500\" FLAG_exec_root=\"$PWD\" FLAG_log_dir=\"%dist_dir%/logs\" FLAG_reproxy_wait_seconds=\"20\" FLAG_output_dir=\"%dist_dir%/logs\" FLAG_shutdown_proxy=\"true\" FLAG_log_path=\"text://%dist_dir%/logs/reproxy_log.txt\" FLAG_use_gce_credentials=\"true\" FLAG_exec_strategy=\"local\" FLAG_platform=\"container-image=lerc\" FLAG_invocation_id=\"aosp-master-with-phones-aosp_crosshatch-userdebug-%bid%\" FLAG_instance=\"projects/android-build-farm/instances/default_instance\" FLAG_service=\"remotebuildexecution.googleapis.com:443\" RBE_DIR=\"prebuilts/remoteexecution-client/live\" FLAG_re_proxy=\"prebuilts/remoteexecution-client/live/reproxy\" FLAG_cpp_dependency_scanner_plugin=\"prebuilts/remoteexecution-client/live/dependency_scanner_go_plugin.so\" FLAG_compare=\"`echo %bid% | sed 's/P//' | awk '{($1%100 \u003c 10) ? v = \\\"true\\\" : v  = \\\"false\\\"; print v }'`\" prebuilts/remoteexecution-client/live/dumpstats"
-    ],
-    "buildPlatform": "linux",
-    "javaVersion": "1.8",
-    "launchcontrolName": "aosp_crosshatch-userdebug",
-    "product": "aosp_crosshatch",
-    "disabled": false,
-    "platformVersion": "trusty",
-    "incrementalBuild": false,
-    "priority": "low",
-    "ownerInfo": {
-     "owner": "bluecross-build@google.com",
-     "expirationDate": "1599841224000"
-    }
-   },
-   "revision": "or3eS9qQdlt7oFiapHZZhg==",
-   "successful": true,
-   "branch": "aosp-master-with-phones",
-   "signed": false,
-   "creationTimestamp": "1587481089523",
-   "buildAttemptStatus": "complete",
-   "worknodeId": "L52400000533105924:N09900000583785560",
-   "testResultSummary": {
-    "testsComplete": true,
-    "allCriticalTestsPassed": true,
-    "toolGroups": {
-     "ATP": {
-      "testSuites": {
-       "BVT": {
-        "passed": true,
-        "testTags": {
-         "apct/device_boot_health_test-postsubmit": "1488471290303",
-         "apct/net/netdutils_test": "1488471290304",
-         "apct/net/networking_framework_unit_test": "1488471290305"
-        },
-        "passedTestTags": {
-         "apct/net/netdutils_test": "1488471290304",
-         "apct/net/networking_framework_unit_test": "1488471290305",
-         "apct/device_boot_health_test-postsubmit": "1488471290303"
-        }
-       }
-      }
-     }
-    },
-    "completedTools": [
-     "atp"
-    ]
-   },
-   "hasTests": true,
-   "machineName": "abfarm581",
-   "completionTimestamp": "1587486355021",
-   "buildbotAvailableSpaceGb": "705",
-   "buildbotSwVersion": "androidbuild_buildbot_20200406.00_RC01",
-   "lastUpdatedTimestamp": "1587489517587"
+   "lastUpdatedTimestamp": "1587708782812"
   }
  ]
 }
