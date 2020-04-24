@@ -18,11 +18,6 @@ app.get('/android/internal/build/v3/branches', function(req, res){
   res.send(obj);
 });
 
-app.get('/android/internal/build/v3/branches', function(req, res){
-  res.setHeader('Content-Type', 'application/json');
-  res.send(fs.readFileSync('responses/branches.json', 'utf8'));
-});
-
 app.get('/android/internal/build/v3/builds', function(req, res){
   res.setHeader('Content-Type', 'application/json');
   res.send(fs.readFileSync('responses/builds.json', 'utf8'));
