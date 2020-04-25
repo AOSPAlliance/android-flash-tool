@@ -9,6 +9,7 @@ services:
     volumes:
      - ${PWD}/image-with-license.sh:/usr/share/nginx/html/image-with-license.sh
      - ${PWD}/android-info.txt:/usr/share/nginx/html/android-info.txt
+     - ${PWD}/factory.zip:/usr/share/nginx/html/factory.zip
     networks:
     - flashnet
   api:
