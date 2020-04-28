@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <!-- modification: add javascript file with config variables -->
+  <script src="/config.js"></script>
+  <!-- modification: originally https://apis.google.com/js/api.js -->
+  <script src="${SECURE_URL}/api.js"></script>
+  <script>
+    // modification - originally https://flash.android.com
+    window.WEB_FLASHSTATION_SECURE_PARENT_ORIGIN = `${FLASH_URL}`;
+  </script>
+</head>
+<body>
+  <script src="/app.js"></script>
+</body>
+</html>

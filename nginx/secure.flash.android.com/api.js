@@ -214,7 +214,7 @@ gapi._bs = new Date().getTime();
             }
             return null
         },
-        oa = /^http?:\/\/localhost(:\d+)?\/[a-zA-Z0-9_.,!=\-\/]+$/,
+        oa = /^http?:\/\/.*(:\d+)?\/[a-zA-Z0-9_.,!=\-\/]+$/, // modification: changed domain
         na = /\/cb=/g,
         ma = /\/\//g,
         sa = function() {
@@ -224,7 +224,8 @@ gapi._bs = new Date().getTime();
         };
     O.m = function(a, b, c, d) {
         (a = a[0]) || S("missing_hint");
-        return "http://localhost:8081" + ra(a, b, c, d)
+        // modification: changed domain
+        return config.SECURE_URL + ra(a, b, c, d)
     };
     var W = decodeURI("%73cript"),
         X = /^[-+_0-9\/A-Za-z]+={0,2}$/,
@@ -653,7 +654,7 @@ gapi.load("", {
                 }
             },
             "h": "m;/_/scs/apps-static/_/js/k\u003doz.gapi.en_US.ebk8EhJxLu4.O/am\u003dwQE/d\u003d1/ct\u003dzgms/rs\u003dAGLTcCP6GuLd1aTsaaFO6Zp_Rjnyu1Wv5g/m\u003d__features__",
-            "u": "http://localhost:8081/api.js",
+            "u": config.SECURE_URL+"/api.js", // modification: changed domain
             "hee": true,
             "fp": "3062b5bb7f024cab7e33463197a0fb6966f3cf84",
             "dpo": false

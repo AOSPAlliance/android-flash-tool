@@ -7,19 +7,8 @@ services:
      - "8080:8080"
      - "8081:8081"
     volumes:
-     - ${PWD}/image-with-license.sh:/usr/share/nginx/html/image-with-license.sh
-     - ${PWD}/android-info.txt:/usr/share/nginx/html/android-info.txt
+     - ${PWD}/builds.js:/usr/share/nginx/html/builds/builds.js
      - ${PWD}/factory.zip:/usr/share/nginx/html/factory.zip
-    networks:
-    - flashnet
-  api:
-    build: ./api
-    ports:
-     - "8082:8082"
-    networks:
-    - flashnet
-
-networks:
-  flashnet:
-    ipam:
-      driver: default
+    environment:
+    - FLASH_URL=http://localhost:8080
+    - SECURE_URL=http://localhost:8081

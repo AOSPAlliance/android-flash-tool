@@ -14,13 +14,19 @@
 
   <body>
     <public-flashstation-app></public-flashstation-app>
-
-    <script src="http://localhost:8080/api.js"></script>
+    <!-- modification: add javascript file with list of all builds -->
+    <script src="/builds/builds.js"></script>
+    <!-- modification: add javascript file with config variables -->
+    <script src="/config.js"></script>
+    <!-- modification: originally https://apis.google.com/js/api.js -->
+    <script src="${FLASH_URL}/api.js"></script>
     <script>
-      window.WEB_FLASHSTATION_SECURE_ORIGIN = `http://localhost:8081`;
+      // modification: originally https://secure.flash.android.com
+      window.WEB_FLASHSTATION_SECURE_ORIGIN = `${SECURE_URL}`;
       window.API_KEY = `AIzaSyD-bwHpMvFCN3PfRN4Txsw_ECg_iptNfMQ`;
       window.ENVIRONMENT = 1;
     </script>
+    <!-- modification: split out known libraries from apps.js -->
     <script src="/idb.js"></script>
     <script src="/jsbn.js"></script>
     <script src="/jsbn2.js"></script>

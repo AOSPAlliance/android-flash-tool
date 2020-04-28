@@ -1,0 +1,23 @@
+server {
+  listen       FLASH_PORT;
+  server_name  FLASH_DOMAIN;
+  rewrite ^/_/.*m=client.*cb=gapi.loaded_0$ /_client.js last;
+  rewrite ^/_/.*m=gapi_iframes.*cb=gapi.loaded_1$ /_gapi_iframes.js last;
+
+  location / {
+      root   /usr/share/nginx/html;
+      try_files $uri /index.html;
+  }
+}
+
+server {
+  listen       SECURE_PORT;
+  server_name  SECURE_DOMAIN;
+  rewrite ^/_/.*m=gapi_iframes.*cb=gapi.loaded_0$ /_gapi_iframes.js last;
+  rewrite ^/_/.*m=googleapis_proxy.*cb=gapi.loaded_0$ /_googleapis_proxy.js last;
+
+  location / {
+      root   /usr/share/nginx/secure;
+      try_files $uri /index.html;
+  }
+}
